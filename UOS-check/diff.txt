@@ -1,0 +1,114 @@
+	Manufacturer: N/A				      |		Manufacturer: HT
+	Manufacturer: HUAWEI				      |		Manufacturer: HT
+	Product Name: Kunpeng Desktop Board D920L11K-2251K    |		Product Name: SC612DI-8F
+	Manufacturer: N/A				      |		Manufacturer: HT
+	Product Name: N/A				      |		Product Name: MS3000-H4
+command.sh: 10: command.sh: ipmitool: not found		      |		Version: 3.1
+command.sh: 11: command.sh: ipmitool: not found		      |	Firmware Revision         : 8.37
+command.sh: 12: command.sh: ipmitool: not found		      |
+command.sh: 13: command.sh: ipmitool: not found		      |	isorelax-0-0.15.release20050331.el7.noarch
+	Version: N/A					      |	centos-release-7-5.1804.el7.centos.x86_64
+command.sh: 16: command.sh: ipmitool: not found		      |	command.sh: line 20: lsb_release: command not found
+							      |
+command.sh: 19: command.sh: rpm: not found		      |	Mon Jul  6 13:56:17 CST 2020
+No LSB modules are available.				      |	      Local time: Mon 2020-07-06 13:56:17 CST
+Distributor ID:	Uos					      |	  Universal time: Mon 2020-07-06 05:56:17 UTC
+Description:	uos 20 SP1				      |	        RTC time: Mon 2020-07-06 13:56:17
+Release:	20 SP1					      |	       Time zone: Asia/Shanghai (CST, +0800)
+Codename:	n/a					      |	     NTP enabled: no
+							      |	NTP synchronized: no
+Sat Jul  4 22:26:41 CST 2020				      |	 RTC in local TZ: yes
+               Local time: Sat 2020-07-04 22:26:41 CST	      |	      DST active: n/a
+           Universal time: Sat 2020-07-04 14:26:41 UTC	      |
+                 RTC time: Sat 2020-07-04 14:26:40	      |	[1;39mWarning: The system is configured to read the RTC time 
+                Time zone: Asia/Shanghai (CST, +0800)	      |	         This mode can not be fully supported. It will create
+System clock synchronized: no				      |	         with time zone changes and daylight saving time adju
+              NTP service: active			      |	         time is never updated, it relies on external facilit
+          RTC in local TZ: no				      |	         If at all possible, use RTC in UTC by calling
+							      |	         'timedatectl set-local-rtc 0'[0m.
+	Version: HUAWEI Kunpeng 920 2251K		      |
+Core(s) per socket:  8					      |		Version: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+Thread(s) per core:  1					      |		Version: Not Specified
+	Manufacturer: Ramaxel				      |	Core(s) per socket:    10
+	Module Manufacturer ID: Unknown			      |	Thread(s) per core:    2
+	Memory Subsystem Controller Manufacturer ID: Unknown  |		Manufacturer: Samsung
+	Manufacturer: Ramaxel				      |		Manufacturer: Samsung
+	Module Manufacturer ID: Unknown			      |		Manufacturer: Samsung
+	Memory Subsystem Controller Manufacturer ID: Unknown  |		Manufacturer: Samsung
+							      >		Manufacturer: NO DIMM
+							      >		Manufacturer: NO DIMM
+							      >		Manufacturer: NO DIMM
+							      >		Manufacturer: NO DIMM
+Mem:             15           0          14           0       |	Mem:            125           1         123           0      
+Swap:            15           0          15		      |	Swap:             7           0           7
+  Vendor: ATAPI    Model: DVD A  DH24AFSH  Rev: CC2N	      |	  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: ATA      Model: BIWIN SSD        Rev: 7B0 	      |	  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: ATA      Model: WDC WD10EZEX-08W Rev: 1A02	      <
+sda      8:0    1 238.5G  0 disk 			      |	sda      8:0    0 446.6G  0 disk 
+|-sda1   8:1    1   300M  0 part /boot/efi		      |	├─sda1   8:1    0     1G  0 part /boot
+|-sda2   8:2    1   1.5G  0 part /boot			      |	├─sda2   8:2    0   100G  0 part /
+|-sda3   8:3    1    15G  0 part /			      |	└─sda3   8:3    0     8G  0 part [SWAP]
+|-sda4   8:4    1    15G  0 part 			      |	sdb      8:16   0  10.9T  0 disk 
+|-sda5   8:5    1 180.7G  0 part /data			      <
+|-sda6   8:6    1    10G  0 part /recovery		      <
+`-sda7   8:7    1    16G  0 part [SWAP]			      <
+sdb      8:16   0 931.5G  0 disk 			      <
+sr0     11:0    1  1024M  0 rom  			      |	/dev/sda1: UUID="c113cd6c-2edf-46d4-8d68-b588496c6eb4" TYPE="
+/dev/sda1: LABEL_FATBOOT="EFI" LABEL="EFI" UUID="69AB-D9BB" T |	/dev/sda2: UUID="92c941c2-31c6-4d77-b393-0bfb43d34c5e" TYPE="
+/dev/sda2: LABEL="Boot" UUID="ed2d2ac5-6066-43d0-8d3d-7226b89 |	/dev/sda3: UUID="522a7a54-2582-4a14-8489-1a8662bc4e6e" TYPE="
+/dev/sda3: LABEL="Roota" UUID="201b903a-a793-4d0c-b3d3-4910e6 |	/dev/sdc: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat" 
+/dev/sda4: LABEL="Rootb" UUID="ffd65383-e110-48aa-9a39-590d29 |	eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+/dev/sda5: LABEL="_dde_data" UUID="333172b3-b1d6-4367-ac38-cc |	        inet 192.168.0.100  netmask 255.255.255.0  broadcast 
+/dev/sda6: LABEL="Backup" UUID="5bdb564d-1d97-435f-9201-7a5ed |	        inet6 fe80::12aa:e845:9f93:4e23  prefixlen 64  scopei
+/dev/sda7: LABEL="SWAP" UUID="f5cc3a13-a73d-46d9-a47b-52d7635 |	        ether ac:1f:6b:e2:8f:c0  txqueuelen 1000  (Ethernet)
+/dev/sdc: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat"	      |	        RX packets 56  bytes 5717 (5.5 KiB)
+enp125s0f0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500      <
+        ether 60:12:3c:11:09:3e  txqueuelen 1000  (Ethernet)  <
+        RX packets 0  bytes 0 (0.0 B)			      <
+        TX packets 0  bytes 0 (0.0 B)			      |	        TX packets 67  bytes 6069 (5.9 KiB)
+							      >	        TX errors 0  dropped 0 overruns 0  carrier 0  collisi
+							      >	        device memory 0xfaf00000-faf7ffff  
+							      >
+							      >	eno2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+							      >	        inet 192.168.1.100  netmask 255.255.255.0  broadcast 
+							      >	        inet6 fe80::a8c0:605a:34e3:fceb  prefixlen 64  scopei
+							      >	        ether ac:1f:6b:e2:8f:c1  txqueuelen 1000  (Ethernet)
+							      >	        RX packets 56  bytes 5717 (5.5 KiB)
+							      >	        RX errors 0  dropped 0  overruns 0  frame 0
+							      >	        TX packets 68  bytes 6115 (5.9 KiB)
+							      >	        device memory 0xfae00000-fae7ffff  
+enp125s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500      |	enp2s0f0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 60:12:3c:11:09:3f  txqueuelen 1000  (Ethernet)  |	        inet 192.168.2.100  netmask 255.255.255.0  broadcast 
+							      >	        inet6 fe80::5003:ae6f:ee09:91c1  prefixlen 64  scopei
+							      >	        ether 18:c0:4d:14:f0:f2  txqueuelen 1000  (Ethernet)
+ip6tnl0: flags=128<NOARP>  mtu 1452			      |	enp2s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-0 |	        inet 192.168.3.100  netmask 255.255.255.0  broadcast 
+							      >	        inet6 fe80::11be:7a14:6eb4:1971  prefixlen 64  scopei
+							      >	        ether 18:c0:4d:14:f0:f3  txqueuelen 1000  (Ethernet)
+        RX packets 336  bytes 27024 (26.3 KiB)		      |	        RX packets 502  bytes 209470 (204.5 KiB)
+        TX packets 336  bytes 27024 (26.3 KiB)		      |	        TX packets 502  bytes 209470 (204.5 KiB)
+							      >	        TX errors 0  dropped 0 overruns 0  carrier 0  collisi
+							      >
+							      >	virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+							      >	        inet 192.168.122.1  netmask 255.255.255.0  broadcast 
+							      >	        ether 52:54:00:10:f9:9a  txqueuelen 1000  (Ethernet)
+							      >	        RX packets 0  bytes 0 (0.0 B)
+							      >	        RX errors 0  dropped 0  overruns 0  frame 0
+							      >	        TX packets 0  bytes 0 (0.0 B)
+							      >	        TX errors 0  dropped 0 overruns 0  carrier 0  collisi
+							      >
+							      >	virbr0-nic: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+							      >	        ether 52:54:00:10:f9:9a  txqueuelen 1000  (Ethernet)
+							      >	        RX packets 0  bytes 0 (0.0 B)
+							      >	        RX errors 0  dropped 0  overruns 0  frame 0
+							      >	        TX packets 0  bytes 0 (0.0 B)
+7d:00.0 Ethernet controller: Huawei Technologies Co., Ltd. HN |	pcilib: sysfs_read_vpd: read failed: Input/output error
+7d:00.1 Ethernet controller: Huawei Technologies Co., Ltd. HN |	pcilib: sysfs_read_vpd: read failed: Input/output error
+ls: cannot access '/opt/MayaDevice/': No such file or directo |	pcilib: sysfs_read_vpd: read failed: Input/output error
+command.sh: 54: command.sh: nvidia-smi: not found	      |	02:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gig
+02:00.0 VGA compatible controller: Advanced Micro Devices, In |	02:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gig
+command.sh: 58: command.sh: history: not found		      |	06:00.0 Ethernet controller: Intel Corporation I210 Gigabit N
+							      >	07:00.0 Ethernet controller: Intel Corporation I210 Gigabit N
+							      >	ls: cannot access /opt/MayaDevice/: No such file or directory
+							      >	command.sh: line 54: nvidia-smi: command not found
+							      >	05:00.0 VGA compatible controller: ASPEED Technology, Inc. AS

@@ -1,0 +1,108 @@
+	Manufacturer: OEM
+	Manufacturer: OEM
+	Product Name: SC612DI-8F
+	Manufacturer: OEM
+	Product Name: MS3000-H6
+	Version: 3.1
+Firmware Revision         : 8.37
+--------------------------------------------------------------------------------
+isorelax-0-0.15.release20050331.el7.noarch
+centos-release-7-5.1804.el7.centos.x86_64
+command.sh: line 20: lsb_release: command not found
+--------------------------------------------------------------------------------
+Wed Jul  8 14:12:08 CST 2020
+      Local time: Wed 2020-07-08 14:12:08 CST
+  Universal time: Wed 2020-07-08 06:12:08 UTC
+        RTC time: Wed 2020-07-08 06:12:08
+       Time zone: Asia/Shanghai (CST, +0800)
+     NTP enabled: no
+NTP synchronized: no
+ RTC in local TZ: no
+      DST active: n/a
+--------------------------------------------------------------------------------
+	Version: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+	Version: Not Specified
+Core(s) per socket:    10
+Thread(s) per core:    2
+CPU MHz:               1266.503
+CPU max MHz:           3100.0000
+CPU min MHz:           1200.0000
+--------------------------------------------------------------------------------
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+              total        used        free      shared  buff/cache   available
+Mem:            125           1         123           0           0         123
+Swap:             7           0           7
+--------------------------------------------------------------------------------
+  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: Kingston Model: DataTraveler 2.0 Rev: PMAP
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 446.6G  0 disk 
+├─sda1   8:1    0     1G  0 part /boot
+├─sda2   8:2    0   100G  0 part /
+└─sda3   8:3    0     8G  0 part [SWAP]
+sdb      8:16   0  10.9T  0 disk 
+sdc      8:32   1  14.4G  0 disk /run/media/guest/UUI
+--------------------------------------------------------------------------------
+/dev/sda1: UUID="aa437823-6e31-48fd-96ea-ee2ece6279a6" TYPE="ext4" 
+/dev/sda2: UUID="57748fb8-c786-4b3f-90cc-0a97841e92b3" TYPE="ext4" 
+/dev/sda3: UUID="da06fa6b-98a9-4a4a-a149-34b7796ebd3b" TYPE="swap" 
+/dev/sdc: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat" 
+xfs_info: / is not a mounted XFS filesystem
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp2s0f0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 18:c0:4d:14:ef:0c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.2.100/24 brd 192.168.2.255 scope global noprefixroute enp2s0f0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::ad4a:7a3a:f95f:86fc/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether ac:1f:6b:e2:8f:c4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.100/24 brd 192.168.0.255 scope global noprefixroute eno1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5a7b:9f02:f4ce:3c79/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: enp2s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 18:c0:4d:14:ef:0d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.3.100/24 brd 192.168.3.255 scope global noprefixroute enp2s0f1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1420:488a:49e6:8e31/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+5: eno2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether ac:1f:6b:e2:8f:c5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.100/24 brd 192.168.1.255 scope global noprefixroute eno2
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a46a:bac6:cd6d:4fe0/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+6: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether 52:54:00:8f:6e:b5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+7: virbr0-nic: <BROADCAST,MULTICAST> mtu 1500 qdisc fq_codel master virbr0 state DOWN group default qlen 1000
+    link/ether 52:54:00:8f:6e:b5 brd ff:ff:ff:ff:ff:ff
+--------------------------------------------------------------------------------
+pcilib: sysfs_read_vpd: read failed: Input/output error
+pcilib: sysfs_read_vpd: read failed: Input/output error
+pcilib: sysfs_read_vpd: read failed: Input/output error
+02:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+02:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+06:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)
+07:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)
+ls: cannot access /opt/MayaDevice/: No such file or directory
+command.sh: line 59: nvidia-smi: command not found
+05:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 30)
+Enforcing

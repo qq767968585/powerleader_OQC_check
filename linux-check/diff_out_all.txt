@@ -1,0 +1,147 @@
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Product Name: PSC621DI-16F					Product Name: PSC621DI-16F
+	Product Name: PSC621DI-16F					Product Name: PSC621DI-16F
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Manufacturer: Powerleader					Manufacturer: Powerleader
+	Product Name: PR2710PZQ						Product Name: PR2710PZQ
+	Product Name: PR2710PZQ						Product Name: PR2710PZQ
+command.sh: line 10: ipmitool: command not found		command.sh: line 10: ipmitool: command not found
+command.sh: line 11: ipmitool: command not found		command.sh: line 11: ipmitool: command not found
+command.sh: line 12: ipmitool: command not found		command.sh: line 12: ipmitool: command not found
+command.sh: line 13: ipmitool: command not found		command.sh: line 13: ipmitool: command not found
+	Version: 1.2							Version: 1.2
+	Version: 1.2							Version: 1.2
+command.sh: line 16: ipmitool: command not found		command.sh: line 16: ipmitool: command not found
+-------------------------------------------------------------	-------------------------------------------------------------
+redhat-release-server-7.3-7.el7.x86_64				redhat-release-server-7.3-7.el7.x86_64
+isorelax-0-0.15.release20050331.el7.noarch			isorelax-0-0.15.release20050331.el7.noarch
+command.sh: line 20: lsb_release: command not found		command.sh: line 20: lsb_release: command not found
+-------------------------------------------------------------	-------------------------------------------------------------
+Tue Jul  7 14:15:19 CST 2020				      |	Tue Jul  7 14:37:14 CST 2020
+      Local time: Tue 2020-07-07 14:15:19 CST		      |	      Local time: Tue 2020-07-07 14:37:14 CST
+  Universal time: Tue 2020-07-07 06:15:19 UTC		      |	  Universal time: Tue 2020-07-07 06:37:14 UTC
+        RTC time: Tue 2020-07-07 14:15:19		      |	        RTC time: Tue 2020-07-07 14:37:14
+       Time zone: Asia/Shanghai (CST, +0800)			       Time zone: Asia/Shanghai (CST, +0800)
+     NTP enabled: no						     NTP enabled: no
+NTP synchronized: no						NTP synchronized: no
+ RTC in local TZ: yes						 RTC in local TZ: yes
+      DST active: n/a						      DST active: n/a
+
+[1;39mWarning: The system is configured to read the RTC time 	[1;39mWarning: The system is configured to read the RTC time 
+         This mode can not be fully supported. It will create	         This mode can not be fully supported. It will create
+         with time zone changes and daylight saving time adju	         with time zone changes and daylight saving time adju
+         time is never updated, it relies on external facilit	         time is never updated, it relies on external facilit
+         If at all possible, use RTC in UTC by calling		         If at all possible, use RTC in UTC by calling
+         'timedatectl set-local-rtc 0'[0m.			         'timedatectl set-local-rtc 0'[0m.
+-------------------------------------------------------------	-------------------------------------------------------------
+	Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz		Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+	Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz		Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+	Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz		Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+	Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz		Version: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+Core(s) per socket:    16					Core(s) per socket:    16
+Thread(s) per core:    2					Thread(s) per core:    2
+CPU MHz:               1135.625				      |	CPU MHz:               2572.765
+-------------------------------------------------------------	-------------------------------------------------------------
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+	Manufacturer: Samsung						Manufacturer: Samsung
+              total        used        free      shared  buff	              total        used        free      shared  buff
+Mem:            502           3         498           0       |	Mem:            502           3         497           0      
+Swap:             7           0           7			Swap:             7           0           7
+-------------------------------------------------------------	-------------------------------------------------------------
+  Vendor: ATA      Model: SAMSUNG MZ7LH240 Rev: 404Q		  Vendor: ATA      Model: SAMSUNG MZ7LH240 Rev: 404Q
+  Vendor: Kingston Model: DataTraveler 2.0 Rev: PMAP		  Vendor: Kingston Model: DataTraveler 2.0 Rev: PMAP
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT			NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 223.6G  0 disk 				sda      8:0    0 223.6G  0 disk 
+├─sda1   8:1    0     1G  0 part /boot				├─sda1   8:1    0     1G  0 part /boot
+├─sda2   8:2    0   100G  0 part /				├─sda2   8:2    0   100G  0 part /
+└─sda3   8:3    0     8G  0 part [SWAP]				└─sda3   8:3    0     8G  0 part [SWAP]
+sdb      8:16   1  14.4G  0 disk /run/media/guest/UUI		sdb      8:16   1  14.4G  0 disk /run/media/guest/UUI
+-------------------------------------------------------------	-------------------------------------------------------------
+/dev/sda1: UUID="e65d97fe-419c-4dcd-ad27-69a18e59cb7f" TYPE="	/dev/sda1: UUID="e65d97fe-419c-4dcd-ad27-69a18e59cb7f" TYPE="
+/dev/sda2: UUID="2af65e16-724b-4ebd-bc49-8d2d4e5d77b2" TYPE="	/dev/sda2: UUID="2af65e16-724b-4ebd-bc49-8d2d4e5d77b2" TYPE="
+/dev/sda3: UUID="378abe9d-0ecf-4029-a2ba-601f745682cb" TYPE="	/dev/sda3: UUID="378abe9d-0ecf-4029-a2ba-601f745682cb" TYPE="
+/dev/sdb: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat" 		/dev/sdb: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat" 
+xfs_info: / is not a mounted XFS filesystem			xfs_info: / is not a mounted XFS filesystem
+-------------------------------------------------------------	-------------------------------------------------------------
+-------------------------------------------------------------	-------------------------------------------------------------
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state U	1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state U
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00	    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo				    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 					    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+2: enp24s0f0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qd	2: enp24s0f0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qd
+    link/ether b4:2e:99:df:bd:fd brd ff:ff:ff:ff:ff:ff	      |	    link/ether b4:2e:99:df:be:15 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.100/24 brd 192.168.0.255 scope global enp2	    inet 192.168.0.100/24 brd 192.168.0.255 scope global enp2
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+    inet6 fe80::97c0:cce5:3328:429e/64 scope link tentative 	    inet6 fe80::97c0:cce5:3328:429e/64 scope link tentative 
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+3: enp61s0f2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdis	3: enp61s0f2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdis
+    link/ether 00:d8:61:cf:79:ff brd ff:ff:ff:ff:ff:ff	      |	    link/ether 00:d8:61:cf:7a:18 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.2.100/24 brd 192.168.2.255 scope global enp6	    inet 192.168.2.100/24 brd 192.168.2.255 scope global enp6
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+    inet6 fe80::13ce:a076:bd58:72e0/64 scope link 		    inet6 fe80::13ce:a076:bd58:72e0/64 scope link 
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+4: enp24s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qd	4: enp24s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qd
+    link/ether b4:2e:99:df:bd:fe brd ff:ff:ff:ff:ff:ff	      |	    link/ether b4:2e:99:df:be:16 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.100/24 brd 192.168.1.255 scope global enp2	    inet 192.168.1.100/24 brd 192.168.1.255 scope global enp2
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+    inet6 fe80::682b:d532:502b:1a3e/64 scope link tentative 	    inet6 fe80::682b:d532:502b:1a3e/64 scope link tentative 
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+5: enp61s0f3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdis	5: enp61s0f3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdis
+    link/ether 00:d8:61:cf:7a:00 brd ff:ff:ff:ff:ff:ff	      |	    link/ether 00:d8:61:cf:7a:19 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.3.100/24 brd 192.168.3.255 scope global enp6	    inet 192.168.3.100/24 brd 192.168.3.255 scope global enp6
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+    inet6 fe80::70e4:3d55:d0b4:1f92/64 scope link 		    inet6 fe80::70e4:3d55:d0b4:1f92/64 scope link 
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+6: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc	6: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc
+    link/ether 52:54:00:0f:e0:02 brd ff:ff:ff:ff:ff:ff		    link/ether 52:54:00:0f:e0:02 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global vi	    inet 192.168.122.1/24 brd 192.168.122.255 scope global vi
+       valid_lft forever preferred_lft forever			       valid_lft forever preferred_lft forever
+7: virbr0-nic: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fas	7: virbr0-nic: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fas
+    link/ether 52:54:00:0f:e0:02 brd ff:ff:ff:ff:ff:ff		    link/ether 52:54:00:0f:e0:02 brd ff:ff:ff:ff:ff:ff
+-------------------------------------------------------------	-------------------------------------------------------------
+pcilib: sysfs_read_vpd: read failed: Input/output error		pcilib: sysfs_read_vpd: read failed: Input/output error
+pcilib: sysfs_read_vpd: read failed: Input/output error		pcilib: sysfs_read_vpd: read failed: Input/output error
+18:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gig	18:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gig
+18:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gig	18:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gig
+3d:00.0 Ethernet controller: Intel Corporation Device 37cc (r	3d:00.0 Ethernet controller: Intel Corporation Device 37cc (r
+3d:00.2 Ethernet controller: Intel Corporation Ethernet Conne	3d:00.2 Ethernet controller: Intel Corporation Ethernet Conne
+3d:00.3 Ethernet controller: Intel Corporation Ethernet Conne	3d:00.3 Ethernet controller: Intel Corporation Ethernet Conne
+ls: cannot access /opt/MayaDevice/: No such file or directory	ls: cannot access /opt/MayaDevice/: No such file or directory
+command.sh: line 59: nvidia-smi: command not found		command.sh: line 59: nvidia-smi: command not found
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. AS	03:00.0 VGA compatible controller: ASPEED Technology, Inc. AS
+Enforcing							Enforcing

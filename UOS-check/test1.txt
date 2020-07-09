@@ -1,0 +1,130 @@
+	Manufacturer: HT
+	Manufacturer: HT
+	Product Name: SC612DI-8F
+	Manufacturer: HT
+	Product Name: MS3000-H4
+	Version: 3.1
+Firmware Revision         : 8.37
+
+isorelax-0-0.15.release20050331.el7.noarch
+centos-release-7-5.1804.el7.centos.x86_64
+command.sh: line 20: lsb_release: command not found
+
+Mon Jul  6 13:56:17 CST 2020
+      Local time: Mon 2020-07-06 13:56:17 CST
+  Universal time: Mon 2020-07-06 05:56:17 UTC
+        RTC time: Mon 2020-07-06 13:56:17
+       Time zone: Asia/Shanghai (CST, +0800)
+     NTP enabled: no
+NTP synchronized: no
+ RTC in local TZ: yes
+      DST active: n/a
+
+[1;39mWarning: The system is configured to read the RTC time in the local time zone.
+         This mode can not be fully supported. It will create various problems
+         with time zone changes and daylight saving time adjustments. The RTC
+         time is never updated, it relies on external facilities to maintain it.
+         If at all possible, use RTC in UTC by calling
+         'timedatectl set-local-rtc 0'[0m.
+
+	Version: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+	Version: Not Specified
+Core(s) per socket:    10
+Thread(s) per core:    2
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: Samsung
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+	Manufacturer: NO DIMM
+              total        used        free      shared  buff/cache   available
+Mem:            125           1         123           0           0         122
+Swap:             7           0           7
+  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: AVAGO    Model: MR9340-8i        Rev: 4.68
+  Vendor: Kingston Model: DataTraveler 2.0 Rev: PMAP
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 446.6G  0 disk 
+├─sda1   8:1    0     1G  0 part /boot
+├─sda2   8:2    0   100G  0 part /
+└─sda3   8:3    0     8G  0 part [SWAP]
+sdb      8:16   0  10.9T  0 disk 
+sdc      8:32   1  14.4G  0 disk /mnt
+/dev/sda1: UUID="c113cd6c-2edf-46d4-8d68-b588496c6eb4" TYPE="ext4" 
+/dev/sda2: UUID="92c941c2-31c6-4d77-b393-0bfb43d34c5e" TYPE="ext4" 
+/dev/sda3: UUID="522a7a54-2582-4a14-8489-1a8662bc4e6e" TYPE="swap" 
+/dev/sdc: LABEL="UUI" UUID="D0AF-129A" TYPE="vfat" 
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.100  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::12aa:e845:9f93:4e23  prefixlen 64  scopeid 0x20<link>
+        ether ac:1f:6b:e2:8f:c0  txqueuelen 1000  (Ethernet)
+        RX packets 56  bytes 5717 (5.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 67  bytes 6069 (5.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xfaf00000-faf7ffff  
+
+eno2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.100  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::a8c0:605a:34e3:fceb  prefixlen 64  scopeid 0x20<link>
+        ether ac:1f:6b:e2:8f:c1  txqueuelen 1000  (Ethernet)
+        RX packets 56  bytes 5717 (5.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 68  bytes 6115 (5.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xfae00000-fae7ffff  
+
+enp2s0f0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.2.100  netmask 255.255.255.0  broadcast 192.168.2.255
+        inet6 fe80::5003:ae6f:ee09:91c1  prefixlen 64  scopeid 0x20<link>
+        ether 18:c0:4d:14:f0:f2  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp2s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.3.100  netmask 255.255.255.0  broadcast 192.168.3.255
+        inet6 fe80::11be:7a14:6eb4:1971  prefixlen 64  scopeid 0x20<link>
+        ether 18:c0:4d:14:f0:f3  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 502  bytes 209470 (204.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 502  bytes 209470 (204.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:10:f9:9a  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0-nic: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 52:54:00:10:f9:9a  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+pcilib: sysfs_read_vpd: read failed: Input/output error
+pcilib: sysfs_read_vpd: read failed: Input/output error
+pcilib: sysfs_read_vpd: read failed: Input/output error
+02:00.0 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+02:00.1 Ethernet controller: Intel Corporation 82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
+06:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)
+07:00.0 Ethernet controller: Intel Corporation I210 Gigabit Network Connection (rev 03)
+ls: cannot access /opt/MayaDevice/: No such file or directory
+command.sh: line 54: nvidia-smi: command not found
+05:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 30)
